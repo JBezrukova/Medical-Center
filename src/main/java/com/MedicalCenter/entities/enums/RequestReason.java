@@ -1,4 +1,7 @@
 package com.MedicalCenter.entities.enums;
 
-public class RequestReason {
+public enum RequestReason {
+
+    CREATE,
+    DELETE;
 }
