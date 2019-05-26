@@ -45,5 +45,11 @@ public class RequestRepository {
             }
         }
         requests.add(request);
+        request.getDoctor().getRequests().add(request);
+        request.getUser().getRequests().add(request);
+    }
+
+    public void remove(Request request) {
+        requests.remove(request);
     }
 }

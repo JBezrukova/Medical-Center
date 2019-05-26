@@ -9,8 +9,10 @@ public class UserDAO {
 
     private static final String getIdByLogin =
             "Select user_id from User where login = ?1";
-     private static final String getUserByLogin =
-             "from User where login = ?1";
+    private static final String getUserByLogin =
+            "from User where login = ?1";
+    private static final String getUserByID =
+            "from User where user_id = ?1";
 
     private static EntityManager entityManager;
     private static UserDAO userDAO;
@@ -37,9 +39,17 @@ public class UserDAO {
         return userId;
     }
 
-    public User getUserByLOgin(String login){
+    public User getUserByLOgin(String login) {
         User user = (User) entityManager.createQuery(getUserByLogin)
                 .setParameter(1, login)
+                .getSingleResult();
+        return user;
+    }
+
+    public User getUserByID(int id){
+        User user = (User) entityManager
+                .createQuery(getUserByID)
+                .setParameter(1, id)
                 .getSingleResult();
         return user;
     }

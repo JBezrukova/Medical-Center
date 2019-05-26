@@ -4,35 +4,41 @@ import javax.persistence.*;
 import java.util.HashSet;
 import java.util.Set;
 
-//@Entity
-//
-//@Table(name = "user_card")
+@Entity
+@Table(name = "user_card")
 public class UserCard {
 
-//    @Id
-//    @GeneratedValue(strategy = GenerationType.IDENTITY)
-//    @Column(name = "user_card_id")
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "user_card_id")
     private int ID;
 
-//    @OneToOne
-//    @JoinColumn(name = "user_id")
+    @OneToOne
+    @JoinColumn(name = "user_id")
     private User user;
 
-//    @Column(name = "passport", length = 10)
+    @Column(name = "passport", length = 10)
     private String passport;
 
-//    @Column(name = "oms", length = 20)
+    @Column(name = "oms", length = 20)
     private String oms;
 
-//    @Column(name = "chronic_desease", length = 200)
+    @Column(name = "chronic_desease", length = 200)
     private String chronicDesease;
 
-//    @Column(name = "notes", length = 100)
+    @Column(name = "notes", length = 100)
     private String notes;
 
-//    @OneToMany
-//    @JoinColumn(name = "card_id")
+    @OneToMany(mappedBy = "userCard")
     private Set<CardNote> noteSet = new HashSet<>();
+
+    public Set<CardNote> getNoteSet() {
+        return noteSet;
+    }
+
+    public void setNoteSet(Set<CardNote> noteSet) {
+        this.noteSet = noteSet;
+    }
 
     public int getID() {
         return ID;

@@ -52,11 +52,18 @@ public class UserRepository {
         }
         users.add(user);
     }
-
+/*
     public void addRecord(Record record, User user) {
         if (!users.contains(user)) {
             add(user);
         }
         user.getRecords().add(record);
     }
+
+    public void removeRecord(Record record, User user){
+        if (!users.contains(user)) {
+            add(user);
+        }
+        user.getRecords().remove(record);
+    }*/
 }

@@ -2,38 +2,36 @@ package com.MedicalCenter.entities;
 
 import javax.persistence.*;
 
-//@Entity
-//@Table(name = "request")
+@Entity
+@Table(name = "request")
 public class Request {
 
-    //    @Id
-//    @GeneratedValue(strategy = GenerationType.IDENTITY)
-//    @Column(name = "request_id")
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "request_id")
     private Integer id;
 
-    //    @Column(name = "date")
+    @Column(name = "date")
     private String date;
 
-    //    @Column(name = "time")
+    @Column(name = "time")
     private String time;
 
-    //    @OneToOne
-//    @JoinColumn(name = "user_id")
+    @ManyToOne
+    @JoinColumn(name = "user_id")
     private User user;
 
-    //    @OneToOne
-//    @JoinColumn(name = "doctor_id")
+    @ManyToOne
+    @JoinColumn(name = "doctor_id")
     private Doctor doctor;
 
-    //    @OneToOne
-//    @JoinColumn(name = "category_id")
-    private DoctorCategory category;
-
-    //    @Column(name = "reason")
+    @Column(name = "reason")
     private String reason;
 
+    @Column(name = "admin_approve")
     private boolean approvedByAdmin;
 
+    @Column(name = "doctor_approve")
     private boolean isApprovedByDoctor;
 
     public boolean isApprovedByAdmin() {
@@ -74,14 +72,6 @@ public class Request {
 
     public void setDoctor(Doctor doctor) {
         this.doctor = doctor;
-    }
-
-    public DoctorCategory getCategory() {
-        return category;
-    }
-
-    public void setCategory(DoctorCategory category) {
-        this.category = category;
     }
 
     public String getReason() {

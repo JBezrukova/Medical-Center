@@ -7,73 +7,70 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a5f6e705-f9f5-4c94-9aa0-508aed073b0b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/MedicalCenter/DAO/AdministratorRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/MedicalCenter/DAO/DoctorRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/MedicalCenter/DAO/RecordRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/MedicalCenter/DAO/RequestRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/MedicalCenter/DAO/UserDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/MedicalCenter/DAO/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/MedicalCenter/DBUtils/EntityManagerInstance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/MedicalCenter/Frames/LogInForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/MedicalCenter/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/MedicalCenter/entities/Administrator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/MedicalCenter/entities/CardNote.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/MedicalCenter/entities/Doctor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/MedicalCenter/entities/DoctorCategory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/MedicalCenter/entities/Record.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/MedicalCenter/entities/Request.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/MedicalCenter/entities/UserCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/MedicalCenter/entities/enums/RequestReason.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/MedicalCenter/logic/CreateRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/MedicalCenter/services/ApproveCheckService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/MedicalCenter/services/RecordCreatorService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/MedicalCenter/services/RequestCreatorService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/proguard-rules.pro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/example/bezrukova/medicalcenter/ExampleInstrumentedTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/bezrukova/medicalcenter/LoginActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/example/bezrukova/medicalcenter/ExampleUnitTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uml/classes.mdj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uml/seq1.mdj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uml/seq2.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uml/uc2.mdj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uml/uc3.mdj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uml/usecase1.mdj" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/MedicalCenter.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/omsBase.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/MedicalCenter/DAO/AdministratorDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/MedicalCenter/DAO/CardNoteDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/MedicalCenter/Frames/AdminPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/MedicalCenter/Frames/AdministratorFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/MedicalCenter/Frames/DoctorFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/MedicalCenter/Frames/DoctorPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/MedicalCenter/Frames/NoteFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/MedicalCenter/OMSService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/MedicalCenter/RestAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/MedicalCenter/TimeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Medical-Center.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Medical-Center.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8d44690f-c336-499a-98ed-e032f70925d7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Medical-Center.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Medical-Center.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/MedicalCenter/DAO/CategoriesDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/MedicalCenter/DAO/CategoriesDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/MedicalCenter/DAO/DoctorDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/MedicalCenter/DAO/DoctorDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/MedicalCenter/DAO/DoctorRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/MedicalCenter/DAO/DoctorRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/MedicalCenter/DAO/RecordDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/MedicalCenter/DAO/RecordDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/MedicalCenter/DAO/RecordRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/MedicalCenter/DAO/RecordRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/MedicalCenter/DAO/RequestDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/MedicalCenter/DAO/RequestDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/MedicalCenter/DAO/RequestRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/MedicalCenter/DAO/RequestRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/MedicalCenter/DAO/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/MedicalCenter/DAO/UserDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/MedicalCenter/DAO/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/MedicalCenter/DAO/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/MedicalCenter/Frames/LogInForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/MedicalCenter/Frames/LogInForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/MedicalCenter/Frames/UserFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/MedicalCenter/Frames/UserFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/MedicalCenter/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/MedicalCenter/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/MedicalCenter/entities/Administrator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/MedicalCenter/entities/Administrator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/MedicalCenter/entities/CardNote.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/MedicalCenter/entities/CardNote.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/MedicalCenter/entities/Doctor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/MedicalCenter/entities/Doctor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/MedicalCenter/entities/DoctorCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/MedicalCenter/entities/DoctorCategory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/MedicalCenter/entities/Record.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/MedicalCenter/entities/Record.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/MedicalCenter/entities/Request.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/MedicalCenter/entities/Request.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/MedicalCenter/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/MedicalCenter/entities/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/MedicalCenter/entities/UserCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/MedicalCenter/entities/UserCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/Medical-Center.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/MedicalCenter/DAO/DoctorRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/MedicalCenter/DAO/DoctorRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/MedicalCenter/DAO/RecordRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/MedicalCenter/DAO/RecordRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/MedicalCenter/DAO/RequestRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/MedicalCenter/DAO/RequestRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/MedicalCenter/DAO/UserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/MedicalCenter/DAO/UserDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/MedicalCenter/DAO/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/MedicalCenter/DAO/UserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/MedicalCenter/Frames/LogInForm.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/MedicalCenter/Frames/LogInForm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/MedicalCenter/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/MedicalCenter/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/MedicalCenter/entities/Administrator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/MedicalCenter/entities/Administrator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/MedicalCenter/entities/CardNote.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/MedicalCenter/entities/CardNote.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/MedicalCenter/entities/Doctor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/MedicalCenter/entities/Doctor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/MedicalCenter/entities/DoctorCategory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/MedicalCenter/entities/DoctorCategory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/MedicalCenter/entities/Record.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/MedicalCenter/entities/Record.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/MedicalCenter/entities/Request.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/MedicalCenter/entities/Request.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/MedicalCenter/entities/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/MedicalCenter/entities/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/MedicalCenter/entities/UserCard.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/MedicalCenter/entities/UserCard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/MedicalCenter/logic/CreateRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/MedicalCenter/services/ApproveCheckService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/MedicalCenter/services/RecordCreatorService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/MedicalCenter/services/RequestCreatorService.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -97,25 +94,18 @@
     <expand>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="MySQL - jdbc:mysql://localhost:3306/MedicalCenter?useLegacyDatetimeCode=false&amp;amp&amp;serverTimezone=UTC" type="feb32156:DbDataSourceImpl" />
+        <item name="jdbc:mysql://localhost:3306/MedicalCenter?useLegacyDatetimeCode=false&amp;amp&amp;serverTimezone=UTC" type="feb32156:DbDataSourceImpl" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="MySQL - jdbc:mysql://localhost:3306/MedicalCenter?useLegacyDatetimeCode=false&amp;amp&amp;serverTimezone=UTC" type="feb32156:DbDataSourceImpl" />
+        <item name="jdbc:mysql://localhost:3306/MedicalCenter?useLegacyDatetimeCode=false&amp;amp&amp;serverTimezone=UTC" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="MySQL - jdbc:mysql://localhost:3306/MedicalCenter?useLegacyDatetimeCode=false&amp;amp&amp;serverTimezone=UTC" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="medicalcenter: schema" type="76f4a085:MysqlImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="MySQL - jdbc:mysql://localhost:3306/MedicalCenter?useLegacyDatetimeCode=false&amp;amp&amp;serverTimezone=UTC" type="feb32156:DbDataSourceImpl" />
+        <item name="jdbc:mysql://localhost:3306/MedicalCenter?useLegacyDatetimeCode=false&amp;amp&amp;serverTimezone=UTC" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="medicalcenter: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="user: table" type="285a2a93:MysqlImplModel$Table" />
       </path>
     </expand>
     <select />
@@ -126,22 +116,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/MedicalCenter/DAO/UserRepository.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="57" column="12" selection-start-line="57" selection-start-column="12" selection-end-line="57" selection-end-column="12" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="204">
+              <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/MedicalCenter/DAO/RequestRepository.java">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
-              <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+              <caret line="45" column="21" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/MedicalCenter/Frames/DoctorPanel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-841">
+              <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -150,103 +146,73 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/MedicalCenter/services/ApproveCheckService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-              <folding>
-                <element signature="e#186#187#0" expanded="true" />
-                <element signature="e#236#237#0" expanded="true" />
-                <element signature="e#301#302#0" expanded="true" />
-                <element signature="e#352#353#0" expanded="true" />
-              </folding>
+        <entry file="das://14828c2a-cc12-4bfe-b540-27c2fafd99d5/schema/medicalcenter/table/card_note">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state projectRestartId="6aa9be9a-6eb0-4f42-b5ed-caf4b826d1b7">
+              <filtering>
+                <filter text="" />
+              </filtering>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/MedicalCenter/DAO/DoctorRepository.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/MedicalCenter/Frames/NoteFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="884">
-              <caret line="52" column="40" selection-start-line="52" selection-start-column="40" selection-end-line="52" selection-end-column="40" />
+            <state relative-caret-position="-214">
+              <caret line="28" column="50" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/MedicalCenter/entities/Record.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-68">
-              <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-              <folding>
-                <element signature="e#539#540#0" expanded="true" />
-                <element signature="e#564#565#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/MedicalCenter/entities/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-170">
-              <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1168#1169#0" expanded="true" />
-                <element signature="e#1198#1199#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/MedicalCenter/logic/CreateRequest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/MedicalCenter/RestAPI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="32" column="29" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
+            <state relative-caret-position="247">
+              <caret line="32" column="9" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/MedicalCenter/OMSService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="das://14828c2a-cc12-4bfe-b540-27c2fafd99d5/schema/medicalcenter/table/category">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state projectRestartId="6aa9be9a-6eb0-4f42-b5ed-caf4b826d1b7">
+              <filtering>
+                <filter text="" />
+              </filtering>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/omsBase.txt">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/MedicalCenter/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="26" column="71" selection-start-line="26" selection-start-column="71" selection-end-line="26" selection-end-column="71" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/MedicalCenter/services/RecordCreatorService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" selection-start-line="5" selection-end-line="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/MedicalCenter/services/RequestCreatorService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="102">
+              <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -261,63 +227,73 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>jButton1</find>
+      <find>info</find>
+      <find>внести</find>
+    </findStrings>
+    <dirStrings>
+      <dir>E:\university\spb\architecture\Medical-Center\src\main\java\com\MedicalCenter</dir>
+    </dirStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/MedicalCenter/Application.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/MedicalCenter/entities/enums/UserRole.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/MedicalCenter/entities/enums/UserCard.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/MedicalCenter/entities/Фвьщтщыекфещк.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/MedicalCenter/entities/Admonostrator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/MedicalCenter/entities/Adminostrator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/MedicalCenter/service/UserService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/MedicalCenter/service/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/MedicalCenter/service/UserDetailServiceImpl.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/3f56e5f7-64e7-4fc7-af2d-be7ae86b52af/console.sql" />
-        <option value="$PROJECT_DIR$/src/main/java/Main.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
-        <option value="$PROJECT_DIR$/src/main/resources/persistance.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/persistence.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/MedicalCenter/DBUtils/Connection.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/MedicalCenter/DBUtils/EntetyManagerInstance.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/MedicalCenter/DBUtils/EntityManagerInstance.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/MedicalCenter/DAO/DAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/MedicalCenter/Frames/LogInForm.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/MedicalCenter/DAO/UserDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/MedicalCenter/entities/Administrator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/MedicalCenter/logic/CreateRequestInteractor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/MedicalCenter/logic/CreateRequest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/MedicalCenter/logic/RemoveRecord.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/MedicalCenter/services/RequestCreatorService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/MedicalCenter/DAO/UserRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/MedicalCenter/services/DataPreparationService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/MedicalCenter/services/ApproveCheckService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/MedicalCenter/services/RecordCreatorService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/MedicalCenter/services/TimeService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/MedicalCenter/DAO/DoctorRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/MedicalCenter/DAO/RequestRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/MedicalCenter/logic/RequestCreator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/MedicalCenter/logic/RecordRemover.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/MedicalCenter/DAO/RecordRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/MedicalCenter/entities/Record.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/MedicalCenter/entities/Request.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/MedicalCenter/entities/CardNote.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/MedicalCenter/entities/DoctorCategory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/MedicalCenter/entities/UserCard.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/MedicalCenter/DAO/interfaces/UserRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/MedicalCenter/DAO/interfaces/DoctorRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/MedicalCenter/DAO/interfaces/RequestRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/MedicalCenter/DAO/interfaces/RecordRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/MedicalCenter/DAO/interfaces/AdministratorInterface.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/MedicalCenter/DAO/interfaces/AdministratorRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/MedicalCenter/services/ApproovementCheckService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/MedicalCenter/entities/Request.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/MedicalCenter/services/RequestCreator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/MedicalCenter/services/RequestCreatorsERVICE.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/MedicalCenter/entities/enums/RequestReason.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/MedicalCenter/services/RequestCreatorService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/MedicalCenter/DAO/AdministratorRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/MedicalCenter/services/ApproveCheckService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/MedicalCenter/entities/Doctor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/MedicalCenter/DAO/RequestRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/MedicalCenter/DAO/RecordRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/MedicalCenter/DAO/UserDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/MedicalCenter/DAO/CategoriesDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/MedicalCenter/ЕшьуЫукмшсу.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/MedicalCenter/TimeService.java" />
+        <option value="$PROJECT_DIR$/omsBase.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/MedicalCenter/OMSService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/MedicalCenter/RestInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/MedicalCenter/DoctorController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/MedicalCenter/DoctorBean.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/MedicalCenter/entities/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/MedicalCenter/logic/CreateRequestInteractor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/MedicalCenter/entities/Record.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/MedicalCenter/services/RecordCreatorService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/MedicalCenter/DAO/UserRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/MedicalCenter/DAO/DoctorRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/MedicalCenter/entities/UserCard.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/MedicalCenter/Frames/LogInForm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/MedicalCenter/Frames/UserFrame.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/MedicalCenter/DAO/AdministratorDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/MedicalCenter/entities/Administrator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/MedicalCenter/Frames/AdministratorFrame.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/MedicalCenter/Frames/DoctorFrame.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/MedicalCenter/DAO/RecordDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/MedicalCenter/Frames/AdminPanel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/MedicalCenter/Frames/ТщеуАкфьу.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/MedicalCenter/DAO/CardNoteDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/MedicalCenter/entities/Doctor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/MedicalCenter/Frames/NoteFrame.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/MedicalCenter/DAO/DoctorDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/MedicalCenter/Frames/DoctorPanel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/MedicalCenter/DAO/RequestDAO.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
         <option value="$PROJECT_DIR$/src/main/java/com/MedicalCenter/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/MedicalCenter/logic/CreateRequest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/MedicalCenter/RestAPI.java" />
       </list>
     </option>
   </component>
@@ -328,7 +304,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -339,33 +315,34 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="MedicalCenter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Medical-Center" type="b2602c69:ProjectViewProjectNode" />
               <item name="Medical-Center" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="MedicalCenter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Medical-Center" type="b2602c69:ProjectViewProjectNode" />
               <item name="Medical-Center" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="MedicalCenter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Medical-Center" type="b2602c69:ProjectViewProjectNode" />
               <item name="Medical-Center" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="MedicalCenter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Medical-Center" type="b2602c69:ProjectViewProjectNode" />
               <item name="Medical-Center" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="MedicalCenter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Medical-Center" type="b2602c69:ProjectViewProjectNode" />
               <item name="Medical-Center" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -373,7 +350,7 @@
               <item name="MedicalCenter" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="MedicalCenter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Medical-Center" type="b2602c69:ProjectViewProjectNode" />
               <item name="Medical-Center" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -382,16 +359,7 @@
               <item name="DAO" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="MedicalCenter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Medical-Center" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="MedicalCenter" type="462c0819:PsiDirectoryNode" />
-              <item name="DBUtils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MedicalCenter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Medical-Center" type="b2602c69:ProjectViewProjectNode" />
               <item name="Medical-Center" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -400,17 +368,7 @@
               <item name="entities" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="MedicalCenter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Medical-Center" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="MedicalCenter" type="462c0819:PsiDirectoryNode" />
-              <item name="entities" type="462c0819:PsiDirectoryNode" />
-              <item name="enums" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MedicalCenter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Medical-Center" type="b2602c69:ProjectViewProjectNode" />
               <item name="Medical-Center" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -419,36 +377,63 @@
               <item name="Frames" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="MedicalCenter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Medical-Center" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="MedicalCenter" type="462c0819:PsiDirectoryNode" />
-              <item name="logic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MedicalCenter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Medical-Center" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="MedicalCenter" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MedicalCenter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Medical-Center" type="b2602c69:ProjectViewProjectNode" />
               <item name="Medical-Center" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Medical-Center" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Medical-Center" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="MedicalCenter" type="58d84e3e:PackageViewProjectNode" />
+              <item name="Medical-Center" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="MedicalCenter" type="58d84e3e:PackageViewProjectNode" />
+              <item name="Medical-Center" type="616d4139:PackageViewModuleNode" />
+              <item name="com.MedicalCenter" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="MedicalCenter" type="58d84e3e:PackageViewProjectNode" />
+              <item name="Medical-Center" type="616d4139:PackageViewModuleNode" />
+              <item name="com.MedicalCenter" type="1f31426a:PackageElementNode" />
+              <item name="DAO" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="MedicalCenter" type="58d84e3e:PackageViewProjectNode" />
+              <item name="Medical-Center" type="616d4139:PackageViewModuleNode" />
+              <item name="com.MedicalCenter" type="1f31426a:PackageElementNode" />
+              <item name="entities" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="MedicalCenter" type="58d84e3e:PackageViewProjectNode" />
+              <item name="Medical-Center" type="616d4139:PackageViewModuleNode" />
+              <item name="com.MedicalCenter" type="1f31426a:PackageElementNode" />
+              <item name="Frames" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="MedicalCenter" type="58d84e3e:PackageViewProjectNode" />
+              <item name="Medical-Center" type="616d4139:PackageViewModuleNode" />
+              <item name="META-INF" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -464,6 +449,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555275132540" />
     <property name="database.console.LAST_STATE" value="false" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
@@ -492,12 +478,45 @@
         </RuleState>
       </list>
     </option>
-    <option name="contentProportion" value="0.0942813" />
+    <option name="contentProportion" value="0.14219475" />
   </component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="AdministratorFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.MedicalCenter.Frames.AdministratorFrame" />
+      <module name="MedicalCenter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.MedicalCenter.Frames.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DoctorFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.MedicalCenter.Frames.DoctorFrame" />
+      <module name="MedicalCenter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.MedicalCenter.Frames.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DoctorPanel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DoctorPanel" />
+      <module name="MedicalCenter" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.MedicalCenter.Main" />
-      <module name="Medical-Center" />
+      <module name="MedicalCenter" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.MedicalCenter.*" />
@@ -508,9 +527,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RestAPI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.MedicalCenter.RestAPI" />
+      <module name="MedicalCenter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.MedicalCenter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Medical-Center" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.MedicalCenter.Main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.RestAPI" />
+        <item itemvalue="Application.DoctorFrame" />
+        <item itemvalue="Application.DoctorPanel" />
+        <item itemvalue="Application.AdministratorFrame" />
       </list>
     </recent_temporary>
   </component>
@@ -539,18 +582,71 @@
       <workItem from="1556258491275" duration="28000" />
       <workItem from="1556522191866" duration="597000" />
       <workItem from="1556907559630" duration="4651000" />
-      <workItem from="1556962402512" duration="15803000" />
+      <workItem from="1556962402512" duration="24108000" />
+      <workItem from="1557050628324" duration="17526000" />
+      <workItem from="1557081412482" duration="2103000" />
+      <workItem from="1557136379694" duration="716000" />
+      <workItem from="1557153168733" duration="203000" />
+      <workItem from="1557569637669" duration="3864000" />
+      <workItem from="1557594663602" duration="12808000" />
+      <workItem from="1557659821760" duration="3576000" />
+      <workItem from="1557738741073" duration="743000" />
+      <workItem from="1558294557529" duration="5008000" />
+      <workItem from="1558863981370" duration="49000" />
+      <workItem from="1558864061074" duration="2596000" />
+      <workItem from="1558866914758" duration="21136000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="Test_removeRecordTest - 2019.05.04 at 23h 31m 07s.xml">
+      <configuration name="Test.removeRecordTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_removeRecordTest - 2019.05.04 at 23h 32m 55s.xml">
+      <configuration name="Test.removeRecordTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_removeRecordTest - 2019.05.04 at 23h 36m 40s.xml">
+      <configuration name="Test.removeRecordTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_removeRecordTest - 2019.05.04 at 23h 37m 27s.xml">
+      <configuration name="Test.removeRecordTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_removeRecordWithoutApproveTest - 2019.05.04 at 23h 37m 32s.xml">
+      <configuration name="Test.removeRecordWithoutApproveTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_removeRecordWithoutApproveTest - 2019.05.04 at 23h 37m 37s.xml">
+      <configuration name="Test.removeRecordWithoutApproveTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test - 2019.05.04 at 23h 39m 47s.xml">
+      <configuration name="Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test - 2019.05.12 at 00h 01m 23s.xml">
+      <configuration name="Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test - 2019.05.12 at 00h 02m 41s.xml">
+      <configuration name="Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test - 2019.05.12 at 00h 02m 48s.xml">
+      <configuration name="Test" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49335000" />
+    <option name="totallyTimeSpent" value="127968000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26701966" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22390318" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -561,28 +657,28 @@
       <window_info id="Persistence" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.15220949" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.5695915" visible="true" weight="0.32242227" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49546143" weight="0.38625205" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.3289689" />
       <window_info anchor="bottom" id="Database Console" order="8" weight="0.3289689" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50075644" side_tool="true" weight="0.28150573" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.3289689" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.43040848" side_tool="true" weight="0.5008183" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49319214" weight="0.049099836" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.3289689" />
       <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="15" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run Dashboard" order="16" weight="0.18657938" />
+      <window_info anchor="bottom" id="Run Dashboard" order="16" weight="0.24549918" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Maven" order="3" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" weight="0.20574887" />
+      <window_info anchor="right" id="Database" order="6" visible="true" weight="0.1580938" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" />
@@ -592,41 +688,417 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/MedicalCenter/Frames/DoctorFrame.java</url>
+          <line>112</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3f56e5f7-64e7-4fc7-af2d-be7ae86b52af/console.sql" />
-    <entry file="uml://DATABASE/3f56e5f7-64e7-4fc7-af2d-be7ae86b52af" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/5be2d53c-bddf-4c8b-a80f-efeee0e3968c/console.sql" />
-    <entry file="uml://DATABASE/3f56e5f7-64e7-4fc7-af2d-be7ae86b52af.SCHEMA:new_schema" />
-    <entry file="uml://DATABASE/5be2d53c-bddf-4c8b-a80f-efeee0e3968c.SCHEMA:medicalcenter" />
-    <entry file="das://5be2d53c-bddf-4c8b-a80f-efeee0e3968c/schema/medicalcenter/table/admin" />
-    <entry file="das://5be2d53c-bddf-4c8b-a80f-efeee0e3968c/schema/medicalcenter/table/doctor" />
-    <entry file="das://5be2d53c-bddf-4c8b-a80f-efeee0e3968c/schema/medicalcenter/table/user" />
-    <entry file="das://5be2d53c-bddf-4c8b-a80f-efeee0e3968c/schema/medicalcenter/table/user_card" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/MedicalCenter/service/UserServiceImpl.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/MedicalCenter/service/UserDetailServiceImpl.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/MedicalCenter/service/UserService.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/MedicalCenter/Application.java" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/bdfbdc11-3481-4dfd-be3b-72a5e1b4a6ba/console.sql" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/8d44690f-c336-499a-98ed-e032f70925d7/console.sql" />
-    <entry file="das://8d44690f-c336-499a-98ed-e032f70925d7/schema/medicalcenter/table/user_card">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://8d44690f-c336-499a-98ed-e032f70925d7/schema/medicalcenter/table/user">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/MedicalCenter/DAO/DAO.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar!/javax/persistence/EntityManager.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/MedicalCenter/entities/DoctorCategory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+        <state relative-caret-position="119">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/MedicalCenter/DAO/RecordRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="50" column="44" selection-start-line="50" selection-start-column="44" selection-end-line="50" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_201/src.zip!/java/lang/String.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/MedicalCenter/DAO/RequestRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="48" column="53" selection-start-line="48" selection-start-column="53" selection-end-line="48" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/MedicalCenter/RestInfo.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/MedicalCenter/DoctorBean.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/MedicalCenter/DoctorController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/MedicalCenter/TimeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/MedicalCenter/entities/CardNote.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Medical-Center.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/MedicalCenter/DAO/AdministratorRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/javax/swing/table/DefaultTableModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="646" column="18" selection-start-line="646" selection-start-column="18" selection-end-line="646" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1596">
+          <caret line="95" column="7" lean-forward="true" selection-start-line="95" selection-start-column="7" selection-end-line="95" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/MedicalCenter/Frames/LogInForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="139" column="44" lean-forward="true" selection-start-line="139" selection-start-column="44" selection-end-line="139" selection-end-column="44" />
+          <folding>
+            <element signature="e#741#804#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/MedicalCenter/entities/UserCard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="34" column="39" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
+          <folding>
+            <element signature="e#821#822#0" expanded="true" />
+            <element signature="e#874#875#0" expanded="true" />
+            <element signature="e#912#913#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://14828c2a-cc12-4bfe-b540-27c2fafd99d5/schema/medicalcenter/table/admin">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="6aa9be9a-6eb0-4f42-b5ed-caf4b826d1b7">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://14828c2a-cc12-4bfe-b540-27c2fafd99d5/schema/medicalcenter/table/user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="6aa9be9a-6eb0-4f42-b5ed-caf4b826d1b7">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/MedicalCenter/entities/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/MedicalCenter/DAO/UserDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="52" column="17" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#0#41#1" expanded="true" />
+            <element signature="e#0#26#1" expanded="true" />
+            <element signature="e#0#28#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/MedicalCenter/DAO/CategoriesDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-434">
+          <caret line="20" column="50" lean-forward="true" selection-start-line="19" selection-start-column="3" selection-end-line="20" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/MedicalCenter/entities/Record.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="24" column="19" lean-forward="true" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1775#1776#0" expanded="true" />
+            <element signature="e#1800#1801#0" expanded="true" />
+            <element signature="e#1837#1838#0" expanded="true" />
+            <element signature="e#1865#1866#0" expanded="true" />
+            <element signature="e#1896#1897#0" expanded="true" />
+            <element signature="e#1923#1924#0" expanded="true" />
+            <element signature="e#1963#1964#0" expanded="true" />
+            <element signature="e#1995#1996#0" expanded="true" />
+            <element signature="e#2026#2027#0" expanded="true" />
+            <element signature="e#2053#2054#0" expanded="true" />
+            <element signature="e#2093#2094#0" expanded="true" />
+            <element signature="e#2125#2126#0" expanded="true" />
+            <element signature="e#2154#2155#0" expanded="true" />
+            <element signature="e#2181#2182#0" expanded="true" />
+            <element signature="e#2219#2220#0" expanded="true" />
+            <element signature="e#2251#2252#0" expanded="true" />
+            <element signature="e#2284#2285#0" expanded="true" />
+            <element signature="e#2313#2314#0" expanded="true" />
+            <element signature="e#2357#2358#0" expanded="true" />
+            <element signature="e#2393#2394#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/MedicalCenter/entities/Administrator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="33" column="16" lean-forward="true" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1059#1060#0" expanded="true" />
+            <element signature="e#1120#1121#0" expanded="true" />
+            <element signature="e#1178#1179#0" expanded="true" />
+            <element signature="e#1250#1251#0" expanded="true" />
+            <element signature="e#1310#1311#0" expanded="true" />
+            <element signature="e#1386#1387#0" expanded="true" />
+            <element signature="e#1446#1447#0" expanded="true" />
+            <element signature="e#1522#1523#0" expanded="true" />
+            <element signature="e#1588#1589#0" expanded="true" />
+            <element signature="e#1676#1677#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/MedicalCenter/Frames/AdministratorFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="24" column="4" lean-forward="true" selection-end-line="168" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://14828c2a-cc12-4bfe-b540-27c2fafd99d5/schema/medicalcenter/table/user_card">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="6aa9be9a-6eb0-4f42-b5ed-caf4b826d1b7">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/MedicalCenter/Frames/AdminPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="56" selection-start-line="134" selection-start-column="8" selection-end-line="140" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;method#initComponents#0;class#AdminPanel#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/MedicalCenter/DAO/AdministratorDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="5" selection-start-line="15" selection-start-column="3" selection-end-line="28" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/MedicalCenter/DAO/CardNoteDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="38" column="48" selection-start-line="38" selection-start-column="48" selection-end-line="38" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/MedicalCenter/DAO/DoctorDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#0#37#1" expanded="true" />
+            <element signature="e#0#44#1" expanded="true" />
+            <element signature="e#0#31#1" expanded="true" />
+            <element signature="e#0#28#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/MedicalCenter/entities/Doctor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="141" selection-start-line="141" selection-end-line="141" />
+          <folding>
+            <element signature="e#3198#3199#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-entitymanager/5.0.12.Final/hibernate-entitymanager-5.0.12.Final.jar!/org/hibernate/jpa/spi/AbstractEntityManagerImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3837">
+          <caret line="260" column="13" selection-start-line="260" selection-start-column="13" selection-end-line="260" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-entitymanager/5.0.12.Final/hibernate-entitymanager-5.0.12.Final.jar!/org/hibernate/jpa/spi/AbstractQueryImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-entitymanager/5.0.12.Final/hibernate-entitymanager-5.0.12.Final.jar!/org/hibernate/jpa/internal/QueryImpl.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/MedicalCenter/DAO/RecordDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="68" selection-start-line="68" selection-end-line="68" />
+          <folding>
+            <element signature="e#0#43#1" expanded="true" />
+            <element signature="e#0#71#1" expanded="true" />
+            <element signature="e#0#25#1" expanded="true" />
+            <element signature="e#0#27#1" expanded="true" />
+            <element signature="e#0#29#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/MedicalCenter/entities/Request.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-153">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://14828c2a-cc12-4bfe-b540-27c2fafd99d5/schema/medicalcenter/table/record">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="6aa9be9a-6eb0-4f42-b5ed-caf4b826d1b7">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/MedicalCenter/Frames/DoctorFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="112" selection-start-line="112" selection-end-line="112" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/MedicalCenter/Frames/UserFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/MedicalCenter/DAO/RequestDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="13" column="41" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#0#28#1" expanded="true" />
+            <element signature="e#0#46#1" expanded="true" />
+            <element signature="e#0#26#1" expanded="true" />
+            <element signature="e#0#12#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://14828c2a-cc12-4bfe-b540-27c2fafd99d5/schema/medicalcenter/table/doctor">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="6aa9be9a-6eb0-4f42-b5ed-caf4b826d1b7">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://14828c2a-cc12-4bfe-b540-27c2fafd99d5/schema/medicalcenter/table/category">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="6aa9be9a-6eb0-4f42-b5ed-caf4b826d1b7">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://14828c2a-cc12-4bfe-b540-27c2fafd99d5/schema/medicalcenter/table/request">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="6aa9be9a-6eb0-4f42-b5ed-caf4b826d1b7">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/MedicalCenter/OMSService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/MedicalCenter/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -637,284 +1109,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/MedicalCenter/Frames/LogInForm.java">
+    <entry file="file://$PROJECT_DIR$/omsBase.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/MedicalCenter/Frames/DoctorPanel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="142" column="101" selection-start-line="142" selection-start-column="101" selection-end-line="142" selection-end-column="101" />
+        <state relative-caret-position="-841">
+          <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
+    <entry file="das://14828c2a-cc12-4bfe-b540-27c2fafd99d5/schema/medicalcenter/table/card_note">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="6aa9be9a-6eb0-4f42-b5ed-caf4b826d1b7">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/MedicalCenter/Frames/NoteFrame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+        <state relative-caret-position="-214">
+          <caret line="28" column="50" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Medical-Center.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/MedicalCenter/entities/CardNote.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/MedicalCenter/entities/DoctorCategory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="19" selection-start-line="19" selection-start-column="2" selection-end-line="20" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/MedicalCenter/entities/UserCard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1556921502866" expanded="true" signature="688:738" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/MedicalCenter/DAO/interfaces/DoctorRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/MedicalCenter/DAO/interfaces/UserRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/MedicalCenter/DAO/interfaces/RecordRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/MedicalCenter/entities/Administrator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/MedicalCenter/DAO/interfaces/AdministratorRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/MedicalCenter/entities/Request.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="58" column="29" selection-start-line="58" selection-start-column="29" selection-end-line="58" selection-end-column="29" />
-          <folding>
-            <element signature="e#818#819#0" expanded="true" />
-            <element signature="e#856#857#0" expanded="true" />
-            <element signature="e#919#920#0" expanded="true" />
-            <element signature="e#973#974#0" expanded="true" />
-            <element signature="e#1016#1017#0" expanded="true" />
-            <element signature="e#1057#1058#0" expanded="true" />
-            <element signature="e#1122#1123#0" expanded="true" />
-            <element signature="e#1175#1176#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/MedicalCenter/DBUtils/EntityManagerInstance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/MedicalCenter/entities/enums/UserRole.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/MedicalCenter/entities/enums/RequestReason.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/MedicalCenter/DAO/interfaces/RequestRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/MedicalCenter/DAO/AdministratorRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/MedicalCenter/entities/Doctor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="45" column="29" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
-          <folding>
-            <element signature="e#886#887#0" expanded="true" />
-            <element signature="e#911#912#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/MedicalCenter/DAO/UserDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#0#41#1" expanded="true" />
-            <element signature="e#0#26#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/MedicalCenter/DAO/RecordRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/MedicalCenter/entities/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-170">
-          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1168#1169#0" expanded="true" />
-            <element signature="e#1198#1199#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/MedicalCenter/entities/Record.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-68">
-          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-          <folding>
-            <element signature="e#539#540#0" expanded="true" />
-            <element signature="e#564#565#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/MedicalCenter/DAO/UserRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="57" column="12" selection-start-line="57" selection-start-column="12" selection-end-line="57" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/MedicalCenter/DAO/DoctorRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="52" column="40" selection-start-line="52" selection-start-column="40" selection-end-line="52" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/MedicalCenter/DAO/RequestRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="45" column="21" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/MedicalCenter/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/MedicalCenter/RestAPI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="26" column="71" selection-start-line="26" selection-start-column="71" selection-end-line="26" selection-end-column="71" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/MedicalCenter/services/ApproveCheckService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-          <folding>
-            <element signature="e#186#187#0" expanded="true" />
-            <element signature="e#236#237#0" expanded="true" />
-            <element signature="e#301#302#0" expanded="true" />
-            <element signature="e#352#353#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/MedicalCenter/services/RequestCreatorService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/MedicalCenter/services/RecordCreatorService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" selection-start-line="5" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/MedicalCenter/logic/CreateRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="29" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
+        <state relative-caret-position="247">
+          <caret line="32" column="9" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -1,51 +1,80 @@
 package com.MedicalCenter.entities;
 
+import com.MedicalCenter.DAO.RequestDAO;
+import com.MedicalCenter.entities.enums.RequestReason;
+
 import javax.persistence.*;
 import java.util.HashSet;
 import java.util.Set;
 
-//@Entity
-//
-//@Table(name = "user", uniqueConstraints = @UniqueConstraint(columnNames = {"login"}))
+@Entity
+@Table(name = "user", uniqueConstraints = @UniqueConstraint(columnNames = {"login"}))
 public class User {
 
-//    @Id
-//    @GeneratedValue(strategy = GenerationType.IDENTITY)
-//    @Column(name = "user_id")
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "user_id")
     private Integer user_id;
 
-//    @Column(name = "login", length = 45)
-
+    @Column(name = "login", length = 45)
     private String login;
 
-//    @Column(name = "password", length = 45)
+    @Column(name = "password", length = 45)
     private String password;
 
-//    @Column(name = "user_name", length = 35)
+    @Column(name = "userName", length = 35)
     private String userName;
 
-//    @Column(name = "adres", length = 70)
+    @Column(name = "adres", length = 70)
     private String adres;
 
-//    @Column(name = "birth_day", length = 10)
+    @Column(name = "birthDay", length = 10)
     private String birthDay;
 
-//    @Column(name = "phone_number", length = 15)
+    @Column(name = "phone", length = 15)
     private String phone;
 
-//    @Column(name = "sex", length = 10)
+    @Column(name = "sex", length = 10)
     private String sex;
 
-//    @Column(name = "role", length = 10)
+    @Column(name = "role", length = 10)
     private String role;
 
-//    @OneToOne
-//    @JoinColumn(name = "user_card_id")
+    @OneToOne
+    @JoinColumn(name = "user_card_id")
     private UserCard userCard;
 
-//    @OneToMany
-//    @JoinColumn(name = "record_id")
+    @OneToMany(mappedBy = "user")
+    private Set<Request> requests = new HashSet<>();
+
+    @OneToMany(mappedBy = "user")
     private Set<Record> records = new HashSet<>();
+
+    public void createRequest(Doctor doctor, String date, String time, RequestReason requestReason) {
+        if (requestReason.equals(RequestReason.CREATE)) {
+            if (doctor.checkIfTimeIsEmpty(date, time)) {
+                RequestDAO.getDAO().createRequest(this, doctor, date, time, "create");
+            }
+        } else {
+            RequestDAO.getDAO().createRequest(this, doctor, date, time, "delete");
+        }
+    }
+
+    public Set<Request> getRequests() {
+        return requests;
+    }
+
+    public void setRequests(Set<Request> requests) {
+        this.requests = requests;
+    }
+
+    public Set<Record> getRecords() {
+        return records;
+    }
+
+    public void setRecords(Set<Record> records) {
+        this.records = records;
+    }
 
     public Integer getUser_id() {
         return user_id;
@@ -127,11 +156,4 @@ public class User {
         this.userCard = userCard;
     }
 
-    public Set<Record> getRecords() {
-        return records;
-    }
-
-    public void setRecords(Set<Record> records) {
-        this.records = records;
-    }
 }

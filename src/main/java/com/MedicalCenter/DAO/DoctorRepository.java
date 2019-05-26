@@ -1,6 +1,7 @@
 package com.MedicalCenter.DAO;
 
 import com.MedicalCenter.entities.Doctor;
+import com.MedicalCenter.entities.DoctorCategory;
 import com.MedicalCenter.entities.Record;
 
 import java.util.ArrayList;
@@ -52,4 +53,5 @@ public class DoctorRepository {
         }
         doctor.getRecords().add(record);
     }
+
 }

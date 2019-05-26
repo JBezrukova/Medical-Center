@@ -1,50 +1,101 @@
 package com.MedicalCenter.entities;
 
+import com.MedicalCenter.DAO.CardNoteDAO;
+import com.MedicalCenter.DAO.RecordDAO;
+import com.MedicalCenter.DAO.RequestDAO;
+
 import javax.persistence.*;
 import java.util.HashSet;
 import java.util.Set;
 
-//@Entity
-//@Table(name = "doctor")
+@Entity
+@Table(name = "doctor")
 public class Doctor {
 
-    //    @Id
-//    @GeneratedValue(strategy = GenerationType.IDENTITY)
-//    @Column(name = "doctor_id")
-    private Integer ID;
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "doctor_id")
+    private Integer doctor_id;
 
-    //    @Column(name = "name")
+    @Column(name = "name")
     private String name;
 
-    //    @Column(name = "category")
+    @Column(name = "category")
     private String category;
 
-    //    @Column(name = "birth_date")
+    @Column(name = "birth_date")
     private String birthDay;
 
-    //    @Column(name = "phone")
+    @Column(name = "phone")
     private String phone;
 
-    //    @Column(name = "login")
+    @Column(name = "login")
     private String login;
 
-    //    @Column(name = "password")
+    @Column(name = "password")
     private String password;
 
-    //    @OneToOne
-//    @JoinColumn(name = "category_id")
+    @ManyToOne
+    @JoinColumn(name = "category_id")
     private DoctorCategory specialization;
 
-    //    @OneToMany
-//    @JoinColumn(name = "record_id")
+    @OneToMany(mappedBy = "doctor")
     private Set<Record> records = new HashSet<>();
 
+    @OneToMany(mappedBy = "doctor")
+    private Set<Request> requests = new HashSet<>();
+
+    @OneToMany(mappedBy = "doctor")
+    private Set<CardNote> cardNotes = new HashSet<>();
+
+    public boolean checkIfTimeIsEmpty(String date, String time) {
+        if (records.size() == 0) {
+            return true;
+        } else {
+            for (Record record : records) {
+                if (record.getDate().equals(date)
+                        && record.getTime().equals(time)) {
+                    return false;
+                }
+            }
+        }
+        return true;
+    }
+
+    public void approveRequest(Request request) {
+        request.setApprovedByDoctor(true);
+        if (request.isApprovedByAdmin()) {
+            RecordDAO.getDAO().createRecord(request);
+            RequestDAO.getDAO().removeRequest(request);
+        }
+    }
+
+    public void performRecord(Record record, String test, String complaints, String med){
+        CardNoteDAO.getDAO().saveNote(record, test, complaints, med);
+    }
+
+    public Set<Request> getRequests() {
+        return requests;
+    }
+
+    public void setRequests(Set<Request> requests) {
+        this.requests = requests;
+    }
+
+    public Set<Record> getRecords() {
+        return records;
+    }
+
+    public void setRecords(Set<Record> records) {
+        this.records = records;
+    }
+
     public Integer getID() {
-        return ID;
+        return doctor_id;
     }
 
     public void setID(Integer ID) {
-        this.ID = ID;
+        this.doctor_id = ID;
     }
 
     public String getName() {
@@ -103,12 +154,5 @@ public class Doctor {
         this.specialization = specialization;
     }
 
-    public Set<Record> getRecords() {
-        return records;
-    }
-
-    public void setRecords(Set<Record> records) {
-        this.records = records;
-    }
 }
 

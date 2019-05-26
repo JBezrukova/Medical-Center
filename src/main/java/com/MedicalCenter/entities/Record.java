@@ -1,29 +1,66 @@
 package com.MedicalCenter.entities;
 
+import com.MedicalCenter.DAO.RecordRepository;
+import com.MedicalCenter.DAO.UserRepository;
+
 import javax.persistence.*;
 
-//@Entity
-//@Table(name = "record")
+@Entity
+@Table(name = "record")
 public class Record {
 
-    //    @Id
-//    @GeneratedValue(strategy = GenerationType.IDENTITY)
-//    @Column(name = "record_id")
+        @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "record_id")
     private Integer id;
 
-    //    @Column(name = "date")
+        @Column(name = "date")
     private String date;
 
-    //    @Column(name = "time")
+        @Column(name = "time")
     private String time;
 
-    //    @OneToOne
-//    @JoinColumn(name = "user_id")
+   @ManyToOne
+   @JoinColumn(name = "user_id")
     private User user;
 
-    //    @OneToOne
-//    @JoinColumn(name = "doctor_id")
+    @ManyToOne
+    @JoinColumn(name = "doctor_id")
     private Doctor doctor;
+
+    public static boolean createRecordFromRequest(Request request) {
+        if (request.getReason().equals("create")) {
+            if (request.isApprovedByAdmin() && request.isApprovedByDoctor()) {
+                createRecord(request);
+                return true;
+            }
+        } else {
+            if (request.isApprovedByAdmin()) {
+                removeRequest(request);
+                return true;
+            }
+        }
+        return false;
+    }
+
+    private static void createRecord(Request request) {
+        Record record = extractRecordFromRequest(request);
+        RecordRepository.getInstance().add(record);
+    }
+
+    private static Record extractRecordFromRequest(Request request) {
+        Record record = new Record();
+        record.setUser(request.getUser());
+        record.setTime(request.getTime());
+        record.setDate(request.getDate());
+        record.setDoctor(request.getDoctor());
+        return record;
+    }
+
+    private static void removeRequest(Request request) {
+        Record record = RecordRepository.getInstance().find(request);
+        RecordRepository.getInstance().remove(record);
+    }
 
     public Integer getId() {
         return id;

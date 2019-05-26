@@ -126,22 +126,14 @@ public class LogInForm extends javax.swing.JFrame {
         pack();
     }// </editor-fold>
 
+
     private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {
         // TODO add your handling code here:
     }
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {
-        String login = jTextField1.getText();
-        String password = String.valueOf(jPasswordField1.getPassword());
-//        if (UserDAO.getDAO().getIdByLogin(jTextField1.getText().toString())){
-//            System.out.println("exists");
-            System.out.println(UserDAO.getDAO().getIdByLogin(jTextField1.getText().toString()));
-//        } else {
-//            System.out.println("NOOO");
-//
-//        }
-        System.out.println(UserDAO.getDAO().getUserByLOgin(jTextField1.getText().toString()).getSex());
-
+        UserFrame.getInstance(UserDAO.getDAO().getUserByLOgin(jTextField1.getText()).getUser_id()).setVisible(true);
+        this.setVisible(false);
     }
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {

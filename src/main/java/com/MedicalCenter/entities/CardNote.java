@@ -2,33 +2,33 @@ package com.MedicalCenter.entities;
 
 import javax.persistence.*;
 
-//@Entity
-//@Table(name = "card_note")
+@Entity
+@Table(name = "card_note")
 public class CardNote {
 
-//    @Id
-//    @GeneratedValue(strategy = GenerationType.IDENTITY)
-//    @Column(name = "card_id")
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "card_id")
     private int id;
 
-//    @Column(name = "date")
+    @Column(name = "date")
     private String date;
 
-//    @Column(name = "complaints")
+    @Column(name = "complaints")
     private String complaints;
 
-//    @Column(name = "treatment")
+    @Column(name = "treatment")
     private String treatment;
 
-//    @Column(name = "test")
+    @Column(name = "test")
     private String test;
 
-//    @OneToOne
-//    @JoinColumn(name = "user_card_id")
+    @ManyToOne
+    @JoinColumn(name = "user_card_id")
     private UserCard userCard;
 
-//    @OneToOne
-//    @JoinColumn(name = "doctor_id")
+    @ManyToOne
+    @JoinColumn(name = "doctor_id")
     private Doctor doctor;
 
     public int getId() {

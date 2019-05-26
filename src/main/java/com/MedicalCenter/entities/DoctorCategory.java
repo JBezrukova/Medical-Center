@@ -5,20 +5,19 @@ import javax.persistence.*;
 import java.util.HashSet;
 import java.util.Set;
 
-//@Entity
-//@Table(name = "category")
+@Entity
+@Table(name = "category")
 public class DoctorCategory {
 
-//    @Id
-//    @GeneratedValue(strategy = GenerationType.IDENTITY)
-//    @Column(name = "category_id")
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "category_id")
     private int category_id;
 
-//    @Column(name = "category_name", length = 45)
+    @Column(name = "category_name", length = 45)
     private String name;
 
-//    @OneToMany
-//    @JoinColumn(name = "doctor_id")
+    @OneToMany(mappedBy = "doctor_id")
     private Set<Doctor> doctors = new HashSet<>();
 
     public int getCategory_id() {
