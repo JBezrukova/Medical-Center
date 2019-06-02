@@ -207,6 +207,8 @@ public class NoteFrame extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {
         record.getDoctor().performRecord(record, jTextField6.getText(), jTextField5.getText(), jTextField4.getText());
+        DoctorPanel.setInitialData();
+        this.setVisible(false);
     }
 
 

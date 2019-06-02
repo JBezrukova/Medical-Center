@@ -4,6 +4,7 @@ import com.MedicalCenter.DBUtils.EntityManagerInstance;
 import com.MedicalCenter.entities.User;
 
 import javax.persistence.EntityManager;
+import javax.persistence.NoResultException;
 
 public class UserDAO {
 
@@ -40,10 +41,14 @@ public class UserDAO {
     }
 
     public User getUserByLOgin(String login) {
-        User user = (User) entityManager.createQuery(getUserByLogin)
-                .setParameter(1, login)
-                .getSingleResult();
-        return user;
+        try {
+            User user = (User) entityManager.createQuery(getUserByLogin)
+                    .setParameter(1, login)
+                    .getSingleResult();
+            return user;
+        } catch (NoResultException e){
+            return null;
+        }
     }
 
     public User getUserByID(int id){

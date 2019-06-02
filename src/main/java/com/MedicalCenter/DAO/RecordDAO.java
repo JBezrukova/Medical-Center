@@ -78,6 +78,12 @@ public class RecordDAO {
         return record;
     }
 
+    public void removeRecord(Record record){
+        entityManager.getTransaction().begin();
+        entityManager.remove(record);
+        entityManager.getTransaction().commit();
+    }
+
     public void removeRecord(Request request) {
         Record record = (Record) entityManager
                 .createQuery(recordsByRequest)

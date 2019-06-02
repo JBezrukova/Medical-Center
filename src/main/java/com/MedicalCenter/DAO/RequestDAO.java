@@ -40,7 +40,7 @@ public class RequestDAO {
         return requestDAO;
     }
 
-    public void createRequest(User user, Doctor doctor, String date, String time, String reason) {
+    public Request createRequest(User user, Doctor doctor, String date, String time, String reason) {
         entityManager.getTransaction().begin();
         Request request = new Request();
         request.setUser(user);
@@ -50,6 +50,7 @@ public class RequestDAO {
         request.setReason(reason);
         entityManager.persist(request);
         entityManager.getTransaction().commit();
+        return request;
     }
 
     public List<Request> getRequestsForUser(int id) {

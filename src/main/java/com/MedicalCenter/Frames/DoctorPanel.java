@@ -22,6 +22,7 @@ public class DoctorPanel extends javax.swing.JFrame {
 
     private static DoctorPanel doctorPanel;
     private static Doctor doctor;
+    static List<Record> records1;
     /**
      * Creates new form DoctorPanel
      */
@@ -39,12 +40,12 @@ public class DoctorPanel extends javax.swing.JFrame {
     }
 
 
-    private void setInitialData(){
+    public static void setInitialData(){
         setRequests();
         setRecords();
     }
 
-    private void setRequests(){
+    private static void setRequests(){
         DefaultTableModel tableModel = (DefaultTableModel) jTable1.getModel();
         tableModel.setRowCount(0);
         List<Request> requests = RequestDAO.getDAO().getRequestsForDoctor(doctor);
@@ -60,11 +61,12 @@ public class DoctorPanel extends javax.swing.JFrame {
         }
     }
 
-    private void setRecords(){
+    private static void setRecords(){
         DefaultTableModel tableModel = (DefaultTableModel) jTable3.getModel();
         tableModel.setRowCount(0);
         jComboBox1.removeAllItems();
         List<Record> records = RecordDAO.getDAO().recordsForDoctor(doctor);
+        records1 = records;
         for (Record record : records){
             Vector vector = new Vector(4);
             vector.add(record.getId().toString());
@@ -226,14 +228,15 @@ public class DoctorPanel extends javax.swing.JFrame {
     }// </editor-fold>
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {
-        int item = Integer.valueOf(jComboBox1.getSelectedItem().toString());
-
+        int item = Integer.valueOf(jComboBox1.getSelectedIndex());
+        new NoteFrame(records1.get(item)).setVisible(true);
+        setInitialData();
     }
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {
         DefaultTableModel tableModel = (DefaultTableModel) jTable1.getModel();
         for (int i =0; i < tableModel.getRowCount(); i++){
-            if (tableModel.getValueAt(i, 6) == Boolean.TRUE){
+            if (tableModel.getValueAt(i, 5) == Boolean.TRUE){
                 doctor.approveRequest(RequestDAO.getDAO().getRequestById(
                         (Integer) tableModel.getValueAt(i,0)));
             }
@@ -244,14 +247,14 @@ public class DoctorPanel extends javax.swing.JFrame {
     // Variables declaration - do not modify
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
-    private javax.swing.JComboBox jComboBox1;
+    private static javax.swing.JComboBox jComboBox1;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane3;
     private javax.swing.JTabbedPane jTabbedPane1;
-    private javax.swing.JTable jTable1;
-    private javax.swing.JTable jTable3;
+    private static javax.swing.JTable jTable1;
+    private static javax.swing.JTable jTable3;
     private java.awt.Label label1;
     // End of variables declaration
 }

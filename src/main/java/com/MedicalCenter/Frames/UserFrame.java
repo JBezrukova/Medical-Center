@@ -649,6 +649,7 @@ public class UserFrame extends javax.swing.JFrame {
             }
         }
         putRequestsDataIntoTable();
+        purRecordDataIntoTable();
     }
 
     private void jComboBox2ActionPerformed(java.awt.event.ActionEvent evt) {

@@ -72,6 +72,7 @@ public class Doctor {
 
     public void performRecord(Record record, String test, String complaints, String med){
         CardNoteDAO.getDAO().saveNote(record, test, complaints, med);
+        RecordDAO.getDAO().removeRecord(record);
     }
 
     public Set<Request> getRequests() {

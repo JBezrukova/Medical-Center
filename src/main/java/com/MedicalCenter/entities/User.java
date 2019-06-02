@@ -50,14 +50,15 @@ public class User {
     @OneToMany(mappedBy = "user")
     private Set<Record> records = new HashSet<>();
 
-    public void createRequest(Doctor doctor, String date, String time, RequestReason requestReason) {
+    public Request createRequest(Doctor doctor, String date, String time, RequestReason requestReason) {
         if (requestReason.equals(RequestReason.CREATE)) {
             if (doctor.checkIfTimeIsEmpty(date, time)) {
-                RequestDAO.getDAO().createRequest(this, doctor, date, time, "create");
+                return RequestDAO.getDAO().createRequest(this, doctor, date, time, "create");
             }
         } else {
-            RequestDAO.getDAO().createRequest(this, doctor, date, time, "delete");
+            return RequestDAO.getDAO().createRequest(this, doctor, date, time, "delete");
         }
+        return null;
     }
 
     public Set<Request> getRequests() {
