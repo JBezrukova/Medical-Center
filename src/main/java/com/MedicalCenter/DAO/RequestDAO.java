@@ -30,7 +30,7 @@ public class RequestDAO {
 
     public static RequestDAO getDAO() {
         if (requestDAO == null) {
-            synchronized (DoctorDAO.class) {
+            synchronized (RequestDAO.class) {
                 if (requestDAO == null) {
                     requestDAO = new RequestDAO();
                     entityManager = EntityManagerInstance.getEntityManager();

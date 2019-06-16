@@ -16,7 +16,7 @@ public class CardNoteDAO {
 
     public static CardNoteDAO getDAO() {
         if (cardNoteDAO == null) {
-            synchronized (AdministratorDAO.class) {
+            synchronized (CardNoteDAO.class) {
                 if (cardNoteDAO == null) {
                     cardNoteDAO = new CardNoteDAO();
                     entityManager = EntityManagerInstance.getEntityManager();

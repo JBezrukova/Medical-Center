@@ -34,7 +34,7 @@ public class RecordDAO {
 
     public static RecordDAO getDAO() {
         if (recordDAO == null) {
-            synchronized (DoctorDAO.class) {
+            synchronized (RecordDAO.class) {
                 if (recordDAO == null) {
                     recordDAO = new RecordDAO();
                     entityManager = EntityManagerInstance.getEntityManager();
